@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">STBEMU STALKER CODE GENERATOR</string>
+
+    <!-- Real ADS ID
+    <string name="admob_app_id">ca-app-pub-9700554883020818~9182292467</string>
+    <string name="admob_app_open_id">ca-app-pub-9700554883020818/8795279654</string>
+    <string name="admob_banner_id">ca-app-pub-9700554883020818/4319509296</string>
+    <string name="admob_interstitial_id">ca-app-pub-9700554883020818/1917211810</string>
+    <string name="admob_rewarded_id">ca-app-pub-9700554883020818/5538760612</string>
+    -->
+
+    <!-- Test ADS ID -->
+    <!-- Change in MyApplication.java-->
+    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="admob_app_open_id">ca-app-pub-3940256099942544/9257395921</string>
+    <string name="admob_banner_id">ca-app-pub-3940256099942544/9214589741</string>
+    <string name="admob_interstitial_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="admob_rewarded_id">ca-app-pub-3940256099942544/5224354917</string>
+
+</resources>

@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "139476969733",
+    "project_id": "xtream-iptv-code-generator",
+    "storage_bucket": "xtream-iptv-code-generator.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:139476969733:android:073093e064b66c9d866f6c",
+        "android_client_info": {
+          "package_name": "app.xtream.codegenerator"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfbo9i-mEItE5V7eiAkLasE8MNQTRnB34"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:139476969733:android:8a9533243b09fdd9866f6c",
+        "android_client_info": {
+          "package_name": "com.stbemugen"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfbo9i-mEItE5V7eiAkLasE8MNQTRnB34"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:139476969733:android:2acb2f13665448f5866f6c",
+        "android_client_info": {
+          "package_name": "com.xtreamity"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfbo9i-mEItE5V7eiAkLasE8MNQTRnB34"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

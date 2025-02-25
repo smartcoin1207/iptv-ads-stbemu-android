@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/app_bg_dialog"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="32dp"
+    tools:ignore="HardcodedText">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="App is not ready,\nPlease restart it."
+        android:textAppearance="@style/TextAppearance.Material3.TitleMedium"
+        android:textColor="#FF0000"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/error_retry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:text="Retry"
+            android:textAllCaps="true"
+            android:textColor="@color/app_bg"
+            app:backgroundTint="@color/app_primary"
+            app:cornerRadius="4dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/error_exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Exit App"
+            android:textAllCaps="true"
+            android:textColor="@color/app_primary"
+            app:backgroundTint="@color/app_bg_dialog"
+            app:cornerRadius="4dp"
+            app:strokeColor="@color/app_primary"
+            app:strokeWidth="1dp" />
+
+    </LinearLayout>
+</LinearLayout>

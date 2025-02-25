@@ -1,0 +1,46 @@
+[versions]
+admobopenads = "1.0.1"
+agp = "8.2.0"
+appUpdate = "2.1.0"
+firebaseBom = "33.9.0"
+firebaseStorage = "21.0.1"
+gson = "2.10.1"
+iconswitch = "v1.0.5"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+material = "1.12.0"
+activity = "1.8.0"
+constraintlayout = "2.1.4"
+okhttp = "4.9.3"
+opencsv = "5.5.2"
+playServicesAds = "23.4.0"
+volley = "1.2.1"
+googleGmsGoogleServices = "4.4.2"
+
+[libraries]
+admobopenads = { module = "com.github.1902shubh:AdmobOpenAds", version.ref = "admobopenads" }
+app-update = { module = "com.google.android.play:app-update", version.ref = "appUpdate" }
+firebase-analytics = { module = "com.google.firebase:firebase-analytics" }
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
+firebase-crashlytics = { module = "com.google.firebase:firebase-crashlytics" }
+firebase-storage = { module = "com.google.firebase:firebase-storage", version.ref = "firebaseStorage" }
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+iconswitch = { module = "com.github.parminder93:IconSwitch", version.ref = "iconswitch" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+okhttp = { module = "com.squareup.okhttp3:okhttp", version.ref = "okhttp" }
+opencsv = { module = "com.opencsv:opencsv", version.ref = "opencsv" }
+play-services-ads = { module = "com.google.android.gms:play-services-ads", version.ref = "playServicesAds" }
+volley = { module = "com.android.volley:volley", version.ref = "volley" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+google-gms-google-services = { id = "com.google.gms.google-services", version.ref = "googleGmsGoogleServices" }
+
